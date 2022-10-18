@@ -1,6 +1,7 @@
 <img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="lef" width ="70%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="28%" />
 
 ## Dataset Relevant Information Paragraph
+
 Predicting the age of abalone from physical measurements.  The age of
 abalone is determined by cutting the shell through the cone, staining it,
 and counting the number of rings through a microscope -- a boring and
@@ -23,6 +24,7 @@ Report No. 48 (ISSN 1034-3288)
 ```
 
 ## Features
+
 |Name		    |Data Type	|Meas.	|Description
 |---------------|-----------|-------|-----------
 |Sex		    |nominal	|		|M, F, and I (infant)
@@ -64,5 +66,7 @@ Report No. 48 (ISSN 1034-3288)
 ## First results
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/results.JPG" align="center" width ="100%"/>
+
+
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
