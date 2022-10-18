@@ -46,3 +46,17 @@ Report No. 48 (ISSN 1034-3288)
 ## Correlation matrix
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/correlation_matrix.JPG" align="lef" />
+
+## Outliers elimination example
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers.JPG" align="lef" width ="47%"/> 
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_code.JPG" align="lef" />
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_changed.JPG" align="lef" width ="47%"/>
+
+## Regression example
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/linear_regression_v2.png" align="lef" />
+
+![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
