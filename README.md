@@ -1,4 +1,4 @@
-<img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="lef" width ="47%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="19%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="lef" width ="70%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="28%" />
 
 ## Dataset Relevant Information Paragraph
 Predicting the age of abalone from physical measurements.  The age of
@@ -34,3 +34,15 @@ Report No. 48 (ISSN 1034-3288)
 |Viscera weight	|continuous	|grams	|gut weight (after bleeding)
 |Shell weight	|continuous	|grams	|after being dried
 |Rings		    |integer	|		|+1.5 gives the age in years
+
+## Data example
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/dane_head.JPG" align="lef" />
+
+## Data describe
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/dane_describe.JPG" align="lef" />
+
+## Correlation matrix
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/correlation_matrix.JPG" align="lef" />
