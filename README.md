@@ -49,14 +49,20 @@ Report No. 48 (ISSN 1034-3288)
 
 ## Outliers elimination example
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers.JPG" align="lef" width ="47%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/height_age.png" align="lef" width ="70%"/> 
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_code.JPG" align="lef" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_v2.JPG" align="lef" width ="47%"/> 
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_changed.JPG" align="lef" width ="47%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/height_age_outliers.png" align="lef" width ="70%"/> 
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_changed_v2.JPG" align="lef" width ="47%"/>
 
 ## Regression example
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/linear_regression_v2.png" align="lef" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/linear_regression_v2.png" align="lef" width ="70%" />
+
+## First results
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/results.JPG" align="lef" width ="100%"/>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
