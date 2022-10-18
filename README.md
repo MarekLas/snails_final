@@ -37,32 +37,32 @@ Report No. 48 (ISSN 1034-3288)
 
 ## Data example
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/dane_head.JPG" align="lef" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/dane_head.JPG" align="center" />
 
 ## Data describe
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/dane_describe.JPG" align="lef" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/dane_describe.JPG" align="center" />
 
 ## Correlation matrix
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/correlation_matrix.JPG" align="lef" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/correlation_matrix.JPG" align="center" />
 
 ## Outliers elimination example
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/height_age.png" align="lef" width ="70%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/height_age.png" align="center" width ="70%"/> 
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_v2.JPG" align="lef" width ="47%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_v2.JPG" align="center" width ="47%"/> 
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/height_age_outliers.png" align="lef" width ="70%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/height_age_outliers.png" align="center" width ="70%"/> 
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_changed_v2.JPG" align="lef" width ="47%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_changed_v2.JPG" align="center" width ="47%"/>
 
 ## Regression example
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/linear_regression_v2.png" align="lef" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/linear_regression_v2.png" align="center" width ="70%" />
 
 ## First results
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/results.JPG" align="lef" width ="100%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/results.JPG" align="center" width ="100%"/>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
