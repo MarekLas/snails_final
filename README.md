@@ -51,7 +51,7 @@ Report No. 48 (ISSN 1034-3288)
 
 ## Outliers elimination example
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/height_age.png" align="center" width ="70%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/height_age.png" align="center" width ="55%"/> 
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_v2.JPG" align="center" width ="47%"/> 
 
