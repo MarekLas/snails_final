@@ -37,6 +37,10 @@ Report No. 48 (ISSN 1034-3288)
 |Shell weight	|continuous	|grams	|after being dried
 |Rings		    |integer	|		|+1.5 gives the age in years
 
+## First script with regression models and neural network without normalization
+
+https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
+
 ## Data example
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/dane_head.JPG" align="center" />
