@@ -51,6 +51,11 @@ We can see that the are som not welcome object data. So I should use one hot enc
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/02_dane.png" align="center" />
 
+## Data information
+Here we can check that the are some null values. I decided to delete them.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/03_info.png" align="center" />
+
 ## Data describe
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/dane_describe.JPG" align="center" />
