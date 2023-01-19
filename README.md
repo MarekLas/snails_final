@@ -186,7 +186,7 @@ The chart that shows how the model learned during the epochs.
 <img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="50%" />
 
 # Part III - Neural network with normalize data
-I was courious if normalizing the data will improve the results. So I decided to do some new script with the same data but instead of scaling them I used column transformer to normalize the data. I was also good practice to try different method for one hot encoding. To normalize data I used MinMaxScaler()
+I was courious if normalizing the data will improve the results. So I decided to do some new script with the same data but instead of scaling them I used column transformer to normalize the data. It was also good possibility to try a different method for one hot encoding. To normalize the data I used MinMaxScaler()
 
 https://scikit-learn.org/stable/modules/generated/sklearn.compose.make_column_transformer.html
 
