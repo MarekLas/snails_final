@@ -57,8 +57,9 @@ Here we can check that the are some null values. I decided to delete them.
 <img src="https://github.com/MarekLas/snails_final/blob/master/03_info.png" align="center" />
 
 ## Data describe
+At first sight nothing terrible seems to be happening here.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/dane_describe.JPG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/04_describe.png" align="center" />
 
 ## Correlation matrix
 
