@@ -81,7 +81,7 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 <img src="https://github.com/MarekLas/snails_final/blob/master/06_label_data.png" align="center" width ="50%"/>
 
 ## Size group
-Thera are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter. But the results weren't satisfactory.
+There are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter. But the results weren't satisfactory.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="60%"/> 
 
@@ -99,15 +99,16 @@ The heatmap shows also that there are some nice dependences with the weight grou
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/10_heatmap.png" align="center" width ="80%"/>
 
-## Outliers elimination example
+## Outliers
+The next step is to reduce the impact of outliers. Because there are not many many data I decided to this using scaterr plot charts. The height data are great example how the charts changed after reducing some of the outliers.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/height_age.png" align="center" width ="55%"/> 
+* Raw data
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_v2.JPG" align="center" width ="47%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/21_height_01.png" align="center" width ="40%"/> 
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/height_age_outliers.png" align="center" width ="70%"/> 
+* After outliers elimination
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/hight_ouliers_changed_v2.JPG" align="center" width ="47%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/22_height_02.png" align="center" width ="40%"/> 
 
 ## Regression example
 
