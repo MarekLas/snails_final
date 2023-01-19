@@ -40,6 +40,7 @@ Report No. 48 (ISSN 1034-3288)
 ## First script with regression models and neural network without normalization
 I decided to check how the final results look with different regression models and some basic neural networks.
 
+Link to the script:
 https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
 
 ## Modules used (mostly) in the script
@@ -57,8 +58,27 @@ Here we can check that the are some null values. I decided to delete them.
 <img src="https://github.com/MarekLas/snails_final/blob/master/03_info.png" align="center" />
 
 ## Data describe
+At first sight nothing terrible seems to be happening here.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/dane_describe.JPG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/04_describe.png" align="center" />
+
+## One hot encoding 
+Now it's time to do something with categorical data. 
+This time I use pandas.get_dummies().
+https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html
+
+But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex F, M and I.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/05_countplot_sex.PNG" align="center" />
+
+After doing get_dumies method the data table looks a little different.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/05a_table_after_get_dummies.PNG" align="center" />
+
+## Label data
+Now let's look at the label data - rings column. Box-plot chart suggests that there are some outliers.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/06_label_data.png" align="center" />
 
 ## Correlation matrix
 
