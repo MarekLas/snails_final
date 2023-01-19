@@ -40,6 +40,7 @@ Report No. 48 (ISSN 1034-3288)
 ## First script with regression models and neural network without normalization
 I decided to check how the final results look with different regression models and some basic neural networks.
 
+Link to the script:
 https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
 
 ## Modules used (mostly) in the script
@@ -63,8 +64,12 @@ At first sight nothing terrible seems to be happening here.
 
 ## One hot encoding 
 Now it's time to do something with categorical data. 
-This time I use pandas.get_dummies(data, prefix=None, prefix_sep='_', dummy_na=False, columns=None, sparse=False, drop_first=False, dtype=None)
-(https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html).
+This time I use pandas.get_dummies().
+https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html
+
+After doing het_dumies method the data table looks a little difrent.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/05a_table_after_get_dummies.PNG" align="center" />
 
 But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex F, M and I.
 
