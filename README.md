@@ -43,6 +43,7 @@ Report No. 48 (ISSN 1034-3288)
 I decided to check how the final results look with different regression models and some basic neural networks.
 
 Link to the script:
+
 https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
 
 ## Modules used (mostly) in the script
@@ -116,12 +117,14 @@ The next step is to reduce the impact of outliers. Because there are not many ma
 
 ## Spliting data
 First step is to split data into features and labels. Then I splited data into train and test data. I used also StandardScaler() to scale splited data.
+
 https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/26_spliting_and_scaling.png" align="center" width ="70%" />
 
 ## Regression models
 I decided to check what will be the results using different regression algorithms.To pick optimal hiperparmeters I used the GridSearchCV() method from scikit-learn library.
+
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/27_models.png" align="center" width ="90%" />
@@ -138,11 +141,11 @@ GridSearchCV code example for the Lasso Regression:
 
 * Barplot charts
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/30_barplot_r2_score.png" align="center" width ="60%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/30_barplot_r2_score.png" align="center" width ="50%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/31_barplot_mae.png" align="center" width ="60%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/31_barplot_mae.png" align="center" width ="50%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/32_barplot_r2_mae.png" align="center" width ="60%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/32_barplot_r2_mae.png" align="center" width ="50%" />
 
 # Part II - Neural network
 Basic neural network using TesorFlow library. I decided to check result with few parameters. In this step the data aren't normalized.
@@ -175,11 +178,41 @@ The chart that shows how the model learned during the epochs.
 
 * Barplot charts
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/35_barplot_r2_score.png" align="center" width ="60%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/35_barplot_r2_score.png" align="center" width ="50%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="60%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="50%" />
 
+# Part II - Neural network wit normalize data
+I was courious if normalizing the data will improve the results. So I decided to do some new script with the same data but instead of scaling them I used column transformer to normalize the data. I was also good practice to try different method for one hot encoding. To normalize data I used MinMaxScaler()
 
+https://scikit-learn.org/stable/modules/generated/sklearn.compose.make_column_transformer.html
+
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+
+Link to the second script:
+
+https://github.com/MarekLas/snails_final/blob/master/abalone_tensor_flow.ipynb
+
+## Creating column with transformer
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/40_column_transformer.png" align="center" width ="70%" />
+
+## Transform training and tase data with column transformer
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/41_normal_ohe.png" align="center" width ="70%" />
+
+## Neural network model
+I decided to use Adam optimizer, 3 layers and 1000 epochs.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/42_model_Adam_l3_e1000.png" align="center" width ="70%" />
+
+## Results
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/43_tensor_flow_mse_r2_score.png" align="center" width ="70%" />
+
+## Plot history
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/44_tf_loss_curve.png" align="center" width ="40%" />
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
