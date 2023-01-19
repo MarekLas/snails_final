@@ -83,15 +83,20 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 ## Size group
 Thera are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter. But the results weren't satisfactory.
 
-
+<img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="60%"/> 
 
 ## The weight group
 
+<img src="https://github.com/MarekLas/snails_final/blob/master/08_weights.png" align="center" width ="60%"/> 
 
+## Dependences
+We can discover here some dependences. Especially visible in size group.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="60%"/> 
 
 ## Correlation matrix
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/correlation_matrix.JPG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/08_weights.png" align="center" />
 
 ## Outliers elimination example
 
