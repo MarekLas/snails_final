@@ -125,7 +125,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Standard
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/26_spliting_and_scaling.png" align="center" width ="70%" />
 
-## Regression models
+## Different regression models
 I decided to check what will be the results using different regression algorithms.To pick optimal hiperparmeters I used the GridSearchCV() method from scikit-learn library.
 
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
