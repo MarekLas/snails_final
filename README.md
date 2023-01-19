@@ -83,7 +83,7 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 ## Size group
 There are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/25_volume.png" align="center" width ="60%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/25_volume.png" align="center" width ="50%"/> 
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="60%"/> 
 
@@ -106,11 +106,11 @@ The next step is to reduce the impact of outliers. Because there are not many ma
 
 * Raw data
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/21_height_01.png" align="center" width ="40%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/21_height_01.png" align="center" width ="30%"/> 
 
 * After outliers elimination
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/22_height_02.png" align="center" width ="40%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/22_height_02.png" align="center" width ="30%"/> 
 
 ## Spliting data
 First step is to split data into features and labels. Then I splited data into train and test data. I used also StandardScaler() to scale splited data.
@@ -118,10 +118,15 @@ https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Standard
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/26_spliting_and_scaling.png" align="center" width ="70%" />
 
-## First results
+## Regression models
+I decided to check what will be the results using different regression models.To pick optimal hiperparmeters I used GridSearchCV() method from scikit-learn library.
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/results.JPG" align="center" width ="100%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/27_models.png" align="center" width ="90%" />
 
+GridSearchCV code example for the Lasso Regression:
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/28_hiperparameters.png" align="center" width ="70%" />
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
