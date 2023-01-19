@@ -130,7 +130,7 @@ GridSearchCV code example for the Lasso Regression:
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/28_hiperparameters.png" align="center" width ="60%" />
 
-## Coefficient of determination  and mean absolute errors results table and charts
+## Coefficient of determination and mean absolute errors results table and charts
 
 * Table
 
@@ -148,14 +148,37 @@ GridSearchCV code example for the Lasso Regression:
 Basic neural network using TesorFlow library. I decided to check result with few parameters. In this step the data aren't normalized.
 
 ## First model
-The model with two layers, 100 epochs and SGD() optimizer.
+As an example how the models were built I put here the first one. The model with two layers, 100 epochs and SGD() optimizer.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/33_first_tensor_flow_model.png" align="center" width ="80%" />
 
 ## Plot history (also known as a loss curve or a training curve)
 The chart that shows how the model learned during the epochs.
 
+* SGD() optimizer with 100 epochs and 2 layers
+
 <img src="https://github.com/MarekLas/snails_final/blob/master/37_loss_curve_SGD_l2_e100.png" align="center" width ="40%" />
+
+* SGD() optimizer with 100 epochs and 3 layers
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/38_loss_curve_SGD_l3_e100.png" align="center" width ="40%" />
+
+* Adam() optimizer with 100 epochs and 3 layers
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/39_loss_curve_Adam_l3_e100.png" align="center" width ="40%" />
+
+## Coefficient of determination and mean absolute errors results table and charts after testing different neural networks
+
+* Table
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/34_tf_r2_score_mae_table.PNG" align="center" width ="40%" />
+
+* Barplot charts
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/35_barplot_r2_score.png" align="center" width ="60%" />
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="60%" />
+
 
 
 
