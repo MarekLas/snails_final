@@ -81,7 +81,9 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 <img src="https://github.com/MarekLas/snails_final/blob/master/06_label_data.png" align="center" width ="50%"/>
 
 ## Size group
-There are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter. But the results weren't satisfactory.
+There are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/25_volume.png" align="center" width ="60%"/> 
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="60%"/> 
 
@@ -110,9 +112,11 @@ The next step is to reduce the impact of outliers. Because there are not many ma
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/22_height_02.png" align="center" width ="40%"/> 
 
-## Regression example
+## Spliting data
+First step is to split data into features and labels. Then I splited data into train and test data. I used also StandardScaler() to scale splited data.
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/linear_regression_v2.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/26_spliting_and_scaling.png" align="center" width ="70%" />
 
 ## First results
 
