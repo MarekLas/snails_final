@@ -151,7 +151,7 @@ GridSearchCV code example for the Lasso Regression:
 <img src="https://github.com/MarekLas/snails_final/blob/master/32_barplot_r2_mae.png" align="center" width ="50%" />
 
 # Part II - Neural network
-Basic neural network using TesorFlow library. I decided to check result with few parameters. In this step the data aren't normalized.
+Basic neural network using TesorFlow library. I decided to check results using different neural network hiperparameters. In this step the data aren't normalized.
 
 ## First model
 As an example how the models were built I put here the first one. The model with two layers, 100 epochs and SGD() optimizer.
