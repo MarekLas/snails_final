@@ -215,7 +215,7 @@ I decided to use Adam optimizer, 3 layers and 1000 epochs.
 <img src="https://github.com/MarekLas/snails_final/blob/master/44_tf_loss_curve.png" align="center" width ="40%" />
 
 # Summary
-After analizing the results the first conclusion is that there is no significatn improvement when I used neural network with almost default settings. Probably if I spend more time selecting appropriate different hiperparameters the result will be better.  So I think that with this issue using neural network is smothing like shooting the bazooka at the mosquitoes.
+After analizing the results the first conclusion is that there is no significatn improvement when I used neural network with almost default settings. Probably if I spend more time selecting appropriate different hiperparameters the result would be better.  So I think that with this issue using neural network is something like shooting the bazooka at the mosquitoes.
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
