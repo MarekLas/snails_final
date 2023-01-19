@@ -40,7 +40,7 @@ Report No. 48 (ISSN 1034-3288)
 |Rings		    |integer	|		|+1.5 gives the age in years
 
 ## First script with regression models and neural network without normalization
-I decided to check how the final results look with different regression models and some basic neural networks.
+I decided to check how the final results will look with different regression models and some basic neural networks.
 
 Link to the script:
 
