@@ -38,12 +38,23 @@ Report No. 48 (ISSN 1034-3288)
 |Rings		    |integer	|		|+1.5 gives the age in years
 
 ## First script with regression models and neural network without normalization
+I decided to check how the final results look with different regression models and some basic neural networks.
 
 https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
 
-## Data example
+## Modules used (mostly) in the script
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/dane_head.JPG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/01_modules.png" align="center" width ="55%"/> 
+
+## Data sample
+We can see that the are som not welcome object data. So I should use one hot encoding soon.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/02_dane.png" align="center" />
+
+## Data information
+Here we can check that the are some null values. I decided to delete them.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/03_info.png" align="center" />
 
 ## Data describe
 
