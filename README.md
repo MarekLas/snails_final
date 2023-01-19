@@ -95,8 +95,9 @@ We can discover here some dependences. Especially visible in size group.
 <img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="60%"/> 
 
 ## Correlation matrix
+The heatmap shows also that there are some nice dependences with the weight group.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/08_weights.png" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/10_heatmap.png" align="center" width ="80%"/>
 
 ## Outliers elimination example
 
