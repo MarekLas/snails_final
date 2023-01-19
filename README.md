@@ -119,14 +119,33 @@ https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Standard
 <img src="https://github.com/MarekLas/snails_final/blob/master/26_spliting_and_scaling.png" align="center" width ="70%" />
 
 ## Regression models
-I decided to check what will be the results using different regression models.To pick optimal hiperparmeters I used GridSearchCV() method from scikit-learn library.
+I decided to check what will be the results using different regression algorithms.To pick optimal hiperparmeters I used the GridSearchCV() method from scikit-learn library.
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/27_models.png" align="center" width ="90%" />
 
 GridSearchCV code example for the Lasso Regression:
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/28_hiperparameters.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/28_hiperparameters.png" align="center" width ="60%" />
+
+## Coefficient of determination  and mean absolute errors results table and charts
+
+* Table
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/29_r2_score_mae_table.PNG" align="center" width ="40%" />
+
+* Barplot charts
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/30_barplot_r2_score.png" align="center" width ="60%" />
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/31_barplot_mae.png" align="center" width ="60%" />
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/32_barplot_r2_mae.png" align="center" width ="60%" />
+
+
+
+
+
 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
