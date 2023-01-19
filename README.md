@@ -1,6 +1,6 @@
 <img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="center" width ="69%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="28%" />
 
-# Part I - Regression models
+# Description
 
 ## Dataset Relevant Information Paragraph
 
@@ -39,6 +39,8 @@ Report No. 48 (ISSN 1034-3288)
 |Shell weight	|continuous	|grams	|after being dried
 |Rings		    |integer	|		|+1.5 gives the age in years
 
+# Part I - Regression models
+
 ## First script with regression models and neural network without normalization
 I decided to check how the final results will look with different regression models and some basic neural networks.
 
@@ -68,9 +70,10 @@ At first sight nothing terrible seems to be happening here.
 ## One hot encoding 
 Now it's time to do something with categorical data. 
 This time I use pandas.get_dummies().
+
 https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html
 
-But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex F, M and I.
+But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex: F, M and I.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/05_countplot_sex.PNG" align="center" />
 
@@ -97,7 +100,7 @@ There are two group of data size group and weight group. At the beginning I was 
 ## Dependences
 We can discover here some dependences. Especially visible in size group.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="60%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="70%"/> 
 
 ## Correlation matrix
 The heatmap shows also that there are some nice dependences with the weight group.
@@ -182,7 +185,7 @@ The chart that shows how the model learned during the epochs.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="50%" />
 
-# Part II - Neural network with normalize data
+# Part III - Neural network with normalize data
 I was courious if normalizing the data will improve the results. So I decided to do some new script with the same data but instead of scaling them I used column transformer to normalize the data. I was also good practice to try different method for one hot encoding. To normalize data I used MinMaxScaler()
 
 https://scikit-learn.org/stable/modules/generated/sklearn.compose.make_column_transformer.html
