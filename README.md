@@ -1,5 +1,7 @@
 <img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="center" width ="69%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="28%" />
 
+# Part I - Regression models
+
 ## Dataset Relevant Information Paragraph
 
 Predicting the age of abalone from physical measurements.  The age of
@@ -142,9 +144,18 @@ GridSearchCV code example for the Lasso Regression:
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/32_barplot_r2_mae.png" align="center" width ="60%" />
 
+# Part II - Neural network
+Basic neural network using TesorFlow library. I decided to check result with few parameters. In this step the data aren't normalized.
 
+## First model
+The model with two layers, 100 epochs and SGD() optimizer.
 
+<img src="https://github.com/MarekLas/snails_final/blob/master/33_first_tensor_flow_model.png" align="center" width ="80%" />
 
+## Plot history (also known as a loss curve or a training curve)
+The chart that shows how the model learned during the epochs.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/37_loss_curve_SGD_l2_e100.png" align="center" width ="40%" />
 
 
 
