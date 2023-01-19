@@ -61,6 +61,15 @@ At first sight nothing terrible seems to be happening here.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/04_describe.png" align="center" />
 
+## One hot encoding 
+Now it's time to do something with categorical data. 
+This time I use pandas.get_dummies(data, prefix=None, prefix_sep='_', dummy_na=False, columns=None, sparse=False, drop_first=False, dtype=None)
+(https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html).
+
+But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex F, M and I.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/05_countplot_sex.PNG" align="center" />
+
 ## Correlation matrix
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/correlation_matrix.JPG" align="center" />
