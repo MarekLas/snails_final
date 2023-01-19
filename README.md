@@ -200,7 +200,7 @@ https://github.com/MarekLas/snails_final/blob/master/abalone_tensor_flow.ipynb
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/40_column_transformer.png" align="center" width ="70%" />
 
-## Transform training and tase data with column transformer
+## Transform training and test data using column transformer
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/41_normal_ohe.png" align="center" width ="70%" />
 
