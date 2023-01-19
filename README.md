@@ -67,13 +67,18 @@ Now it's time to do something with categorical data.
 This time I use pandas.get_dummies().
 https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html
 
-After doing het_dumies method the data table looks a little difrent.
-
-<img src="https://github.com/MarekLas/snails_final/blob/master/05a_table_after_get_dummies.PNG" align="center" />
-
 But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex F, M and I.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/05_countplot_sex.PNG" align="center" />
+
+After doing get_dumies method the data table looks a little different.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/05a_table_after_get_dummies.PNG" align="center" />
+
+## Label data
+Now let's look at the label data - rings column. Box-plot chart suggests that there are some outliers.
+
+<img src="https://github.com/MarekLas/snails_final/blob/master/06_label_data.png" align="center" />
 
 ## Correlation matrix
 
