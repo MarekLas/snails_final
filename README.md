@@ -181,9 +181,9 @@ The chart that shows how the model learned during the epochs.
 
 * Barplot charts
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/35_barplot_r2_score.png" align="center" width ="50%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/35_barplot_r2_score.png" align="center" width ="40%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="50%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="40%" />
 
 # Part III - Neural network with normalize data
 I was courious if normalizing the data will improve the results. So I decided to do some new script with the same data but instead of scaling them I used column transformer to normalize the data. It was also good possibility to try a different method for one hot encoding. To normalize the data I used MinMaxScaler()
