@@ -108,13 +108,13 @@ The heatmap shows also that there are some nice dependences with the weight grou
 <img src="https://github.com/MarekLas/snails_final/blob/master/10_heatmap.png" align="center" width ="80%"/>
 
 ## Outliers
-The next step is to reduce the impact of outliers. Because there are not many many data I decided to this using scaterr plot charts. The height data are great example how the charts changed after reducing some of the outliers.
+The next step is to reduce the impact of outliers. Because the data aren't large I decided to do this using scaterr plot charts. The height data are great example how the charts changed after reducing some of the outliers.
 
-* Raw data
+* Raw heght data
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/21_height_01.png" align="center" width ="30%"/> 
 
-* After outliers elimination
+* Height data after outliers elimination
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/22_height_02.png" align="center" width ="30%"/> 
 
