@@ -83,9 +83,7 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 ## Size group
 Thera are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter. But the results weren't satisfactory.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="50%"/>
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height_bacground.png" align="center" width ="50%"/>
 
 ## Correlation matrix
 
