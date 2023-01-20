@@ -53,7 +53,7 @@ https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
 <img src="https://github.com/MarekLas/snails_final/blob/master/01_modules.png" align="center" width ="55%"/> 
 
 ## Data sample
-We can see that the are som not welcome object data. So I should use one hot encoding soon.
+We can see that the are some not welcome object data. So I should use one hot encoding soon.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/02_dane.png" align="center" />
 
