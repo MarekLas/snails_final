@@ -58,7 +58,7 @@ We can see that the are some not welcome object data. So I should use one hot en
 <img src="https://github.com/MarekLas/snails_final/blob/master/02_dane.png" align="center" />
 
 ## Data information
-Here we can check that the are some null values. I decided to delete them.
+Here we can check that there are some null values. I decided to delete them.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/03_info.png" align="center" />
 
@@ -105,7 +105,7 @@ We can discover here some dependences. Especially visible in size group.
 <img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="70%"/> 
 
 ## Correlation matrix
-The heatmap shows also that there are some nice dependences with the weight group.
+The heatmap is showing also that there are some nice dependences with the weight group.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/10_heatmap.png" align="center" width ="80%"/>
 
