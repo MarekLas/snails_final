@@ -100,7 +100,7 @@ Below we can see that height data have a different scale than the others.
 <img src="https://github.com/MarekLas/snails_final/blob/master/08_weights.png" align="center" width ="60%"/> 
 
 ## Dependences
-We can discover here some dependences. Especially visible in size group.
+We can discover here some dependences. Especially visible in the size group.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="70%"/> 
 
