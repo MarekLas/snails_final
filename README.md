@@ -87,7 +87,7 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 <img src="https://github.com/MarekLas/snails_final/blob/master/06_label_data.png" align="center" width ="50%"/>
 
 ## Size group
-There are two group of data size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
+There are two group of data - size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
 
 <img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="60%"/> 
 
