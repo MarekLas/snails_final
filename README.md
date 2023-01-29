@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
+
 <img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="center" width ="69%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="28%" />
 
 # Description
