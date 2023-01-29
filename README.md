@@ -46,9 +46,9 @@ Report No. 48 (ISSN 1034-3288)
 ## First script with regression models and neural network without normalization
 I decided to check how the final results will look with different regression models and some basic neural networks.
 
-### <b>Link to the script:</b>
+## <b>Link to the first script:</b>
 
-<b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_2023.ipynb</b>
+### <b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_2023.ipynb</b>
 
 ## Modules used (mostly) in the script
 
@@ -196,9 +196,9 @@ https://scikit-learn.org/stable/modules/generated/sklearn.compose.make_column_tr
 
 https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
 
-### <b>Link to the second script:</b>
+## <b>Link to the second script:</b>
 
-<b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_tensor_flow.ipynb</b>
+### <b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_tensor_flow.ipynb</b>
 
 ## Creating column with transformer
 
