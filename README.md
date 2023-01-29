@@ -1,6 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarekLas/snails_final)
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/Abalone_snails_SDA_Final_Project.png" align="center" width ="69%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/abalone.jpg" align="left" width ="28%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/Abalone_snails_SDA_Final_Project.png" align="center" width ="69%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/abalone.jpg" align="left" width ="28%" />
 
 # Description
 
@@ -46,28 +46,28 @@ Report No. 48 (ISSN 1034-3288)
 ## First script with regression models and neural network without normalization
 I decided to check how the final results will look with different regression models and some basic neural networks.
 
-Link to the script:
+### <b>Link to the script:</b>
 
-https://github.com/MarekLas/snails_final/blob/master/abalone_2023.ipynb
+<b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_2023.ipynb</b>
 
 ## Modules used (mostly) in the script
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/01_modules.png" align="center" width ="55%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/01_modules.png" align="center" width ="55%"/> 
 
 ## Data sample
 We can see that the are some not welcome object data. So I should use one hot encoding soon.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/02_dane.png" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/02_dane.png" align="center" />
 
 ## Data information
 Here we can check that there are some null values. I decided to delete them.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/03_info.png" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/03_info.png" align="center" />
 
 ## Data describe
 At first sight nothing terrible seems to be happening here.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/04_describe.png" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/04_describe.png" align="center" />
 
 ## One hot encoding 
 Now it's time to do something with categorical data. 
@@ -77,82 +77,82 @@ https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html
 
 But first let's look at the sex column. It's seems to be very interesting, because there are 3 types of sex: F, M and I.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/05_countplot_sex.PNG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/05_countplot_sex.PNG" align="center" />
 
 After doing get_dumies method the data table looks a little different.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/05a_table_after_get_dummies.PNG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/05a_table_after_get_dummies.PNG" align="center" />
 
 ## Label data
 Now let's look at the label data - rings column. Box-plot chart suggests that there are some outliers.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/06_label_data.png" align="center" width ="50%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/06_label_data.png" align="center" width ="50%"/>
 
 ## Size group
 There are two group of data - size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/07_length_diameter_height.png" align="center" width ="60%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/07_length_diameter_height.png" align="center" width ="60%"/> 
 
 Below we can see that height data have a different scale than the others.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/25_volume.png" align="center" width ="50%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/25_volume.png" align="center" width ="50%"/> 
 
 ## The weight group
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/08_weights.png" align="center" width ="60%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/08_weights.png" align="center" width ="60%"/> 
 
 ## Dependences
 We can discover here some dependences. Especially visible in the size group.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/09_pairplot.png" align="center" width ="70%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/09_pairplot.png" align="center" width ="70%"/> 
 
 ## Correlation matrix
 The heatmap is showing also that there are some nice dependences with the weight group.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/10_heatmap.png" align="center" width ="80%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/10_heatmap.png" align="center" width ="80%"/>
 
 ## Outliers
 The next step is to reduce the impact of outliers. Because the data isn't large I decided to do this using scaterr plot charts. The height data are great example how the charts changed after reducing some of the outliers.
 
 * Raw height data
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/21_height_01.png" align="center" width ="30%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/21_height_01.png" align="center" width ="30%"/> 
 
 * Height data after outliers elimination
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/22_height_02.png" align="center" width ="30%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/22_height_02.png" align="center" width ="30%"/> 
 
 ## Spliting data
 First step is to split data into features and labels. Then I splited data into train and test data. I used also StandardScaler() to scale splited data.
 
 https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/26_spliting_and_scaling.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/26_spliting_and_scaling.png" align="center" width ="70%" />
 
 ## Different regression models
 I decided to check what will be the results using different regression algorithms.To pick optimal hiperparmeters I used the GridSearchCV() method from scikit-learn library.
 
 https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/27_models.png" align="center" width ="90%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/27_models.png" align="center" width ="90%" />
 
 GridSearchCV code example for the Lasso Regression:
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/28_hiperparameters.png" align="center" width ="60%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/28_hiperparameters.png" align="center" width ="60%" />
 
 ## Coefficient of determination and mean absolute errors results table and charts
 
 * Table
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/29_r2_score_mae_table.PNG" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/29_r2_score_mae_table.PNG" align="center" width ="40%" />
 
 * Barplot charts
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/30_barplot_r2_score.png" align="center" width ="50%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/30_barplot_r2_score.png" align="center" width ="50%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/31_barplot_mae.png" align="center" width ="50%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/31_barplot_mae.png" align="center" width ="50%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/32_barplot_r2_mae.png" align="center" width ="50%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/32_barplot_r2_mae.png" align="center" width ="50%" />
 
 # Part II - Neural network
 Basic neural network using TesorFlow library. I decided to check results using different neural network hiperparameters. In this step the data isn't normalized.
@@ -160,34 +160,34 @@ Basic neural network using TesorFlow library. I decided to check results using d
 ## First model
 As an example how the models were built I put here the first one. The model with two layers, 100 epochs and SGD() optimizer.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/33_first_tensor_flow_model.png" align="center" width ="80%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/33_first_tensor_flow_model.png" align="center" width ="80%" />
 
 ## Plot history (also known as a loss curve or a training curve)
 The chart that shows how the model learned during the epochs.
 
 * SGD() optimizer with 100 epochs and 2 layers
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/37_loss_curve_SGD_l2_e100.png" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/37_loss_curve_SGD_l2_e100.png" align="center" width ="40%" />
 
 * SGD() optimizer with 100 epochs and 3 layers
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/38_loss_curve_SGD_l3_e100.png" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/38_loss_curve_SGD_l3_e100.png" align="center" width ="40%" />
 
 * Adam() optimizer with 100 epochs and 3 layers
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/39_loss_curve_Adam_l3_e100.png" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/39_loss_curve_Adam_l3_e100.png" align="center" width ="40%" />
 
 ## Coefficient of determination and mean absolute errors results table and charts after testing different neural networks
 
 * Table
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/34_tf_r2_score_mae_table.PNG" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/34_tf_r2_score_mae_table.PNG" align="center" width ="40%" />
 
 * Barplot charts
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/35_barplot_r2_score.png" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/35_barplot_r2_score.png" align="center" width ="40%" />
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/36_barplot_mae.png" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/36_barplot_mae.png" align="center" width ="40%" />
 
 # Part III - Neural network with normalize data
 I was courious if normalizing the data will improve the results. So I decided to do some new script with the same data but instead of scaling them I used column transformer to normalize the data. It was also good possibility to try a different method for one hot encoding. To normalize the data I used MinMaxScaler()
@@ -196,30 +196,30 @@ https://scikit-learn.org/stable/modules/generated/sklearn.compose.make_column_tr
 
 https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
 
-Link to the second script:
+### <b>Link to the second script:</b>
 
-https://github.com/MarekLas/snails_final/blob/master/abalone_tensor_flow.ipynb
+<b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_tensor_flow.ipynb</b>
 
 ## Creating column with transformer
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/40_column_transformer.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/40_column_transformer.png" align="center" width ="70%" />
 
 ## Transform training and test data using column transformer
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/41_normal_ohe.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/41_normal_ohe.png" align="center" width ="70%" />
 
 ## Neural network model
 I decided to use Adam optimizer, 3 layers and 1000 epochs.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/42_model_Adam_l3_e1000.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/42_model_Adam_l3_e1000.png" align="center" width ="70%" />
 
 ## Results
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/43_tensor_flow_mse_r2_score.png" align="center" width ="70%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/43_tensor_flow_mse_r2_score.png" align="center" width ="70%" />
 
 ## Plot history
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/44_tf_loss_curve.png" align="center" width ="40%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/44_tf_loss_curve.png" align="center" width ="40%" />
 
 # Summary
 After analizing the results the first conclusion is that there is no significatn improvement when I used neural network with almost default settings. Probably if I spent more time selecting appropriate different hiperparameters the result would be better.  So I think that with this issue using neural network is something like shooting the bazooka at the mosquitoes.
