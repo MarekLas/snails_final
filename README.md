@@ -50,7 +50,7 @@ I decided to check how the final results will look with different regression mod
 
 ## <b>Link to the first script:</b>
 
-### <b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_2023.ipynb</b>
+### <b>https://github.com/MarekLas/snails_final/blob/master/scripts/abalone_2023_v2.ipynb</b>
 
 ## Modules used (mostly) in the script
 
@@ -83,7 +83,7 @@ But first let's look at the sex column. It's seems to be very interesting, becau
 
 After doing get_dumies method the data table looks a little different.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/05a_table_after_get_dummies.PNG" align="center" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/05a_table_after_get_dummies.png" align="center" />
 
 ## Label data
 Now let's look at the label data - rings column. Box-plot chart suggests that there are some outliers.
