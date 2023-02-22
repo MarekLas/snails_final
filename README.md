@@ -88,7 +88,7 @@ After doing get_dumies method the data table looks a little different.
 ## Label data
 Now let's look at the label data - rings column. Box-plot chart suggests that there are some outliers.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/06_label_data.png" align="center" width ="50%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/06_label_data.png" align="center" width ="55%"/>
 
 ## Size group
 There are two group of data - size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
