@@ -54,7 +54,7 @@ I decided to check how the final results will look with different regression mod
 
 ## Modules used (mostly) in the script
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/01_modules_v2.png" align="center" width ="54%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/01_modules_v2.png" align="center" width ="55%"/> 
 
 ## Data sample
 We can see that the are some not welcome object data. So I should use one hot encoding soon.
@@ -64,7 +64,7 @@ We can see that the are some not welcome object data. So I should use one hot en
 ## Data information
 Here we can check that there are some null values. I decided to delete them.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/03_info.png" align="center" width ="40%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/03_info.png" align="center" width ="41%"/>
 
 ## Data describe
 At first sight nothing terrible seems to be happening here.
