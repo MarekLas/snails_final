@@ -97,7 +97,7 @@ There are two group of data - size group and weight group. At the beginning I wa
 
 Below we can see that height data have a different scale than the others.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/25_volume.png" align="center" width ="51%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/25_volume.png" align="center" width ="50%"/> 
 
 ## The weight group
 
