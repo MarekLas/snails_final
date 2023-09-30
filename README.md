@@ -93,7 +93,7 @@ Now let's look at the label data - rings column. Box-plot chart suggests that th
 ## Size group
 There are two group of data - size group and weight group. At the beginning I was wondering to do some pseudo voulume value from length, height and diameter.There are some diferences in thevalues scales. But the results weren't satisfactory.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/07_length_diameter_height.png" align="center" width ="60%"/> 
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/07_length_diameter_height.png" align="center" width ="61%"/> 
 
 Below we can see that height data have a different scale than the others.
 
