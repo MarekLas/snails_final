@@ -64,7 +64,7 @@ We can see that the are some not welcome object data. So I should use one hot en
 ## Data information
 Here we can check that there are some null values. I decided to delete them.
 
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/03_info.png" align="center" width ="40%"/>
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/03_info.png" align="center" width ="41%"/>
 
 ## Data describe
 At first sight nothing terrible seems to be happening here.
