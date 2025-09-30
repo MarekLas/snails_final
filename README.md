@@ -2,7 +2,7 @@
 <!--
 <img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/Abalone_snails_SDA_Final_Project.png" align="center" width ="69%" /> <img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/abalone.jpg" align="left" width ="28%" />
 -->
-<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/abalone_v2.jpg" align="center" width ="100%" />
+<img src="https://github.com/MarekLas/snails_final/blob/master/readme_files/abalone_v2.jpg" align="center" width ="101%" />
 
 # Description
 
